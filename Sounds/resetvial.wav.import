@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/resetvial.wav-a5dd61321e9091ff9d054735c30b167e.sample"
+
+[deps]
+
+source_file="res://Sounds/resetvial.wav"
+dest_files=[ "res://.import/resetvial.wav-a5dd61321e9091ff9d054735c30b167e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

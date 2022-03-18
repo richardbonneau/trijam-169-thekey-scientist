@@ -1,0 +1,518 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://Player/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Level/Ground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Level/Vial.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Main/Control.gd" type="Script" id=4]
+[ext_resource path="res://Fonts/Pixeboy-LARGE.ttf" type="DynamicFontData" id=7]
+[ext_resource path="res://Fonts/Pixeboy-Small.ttf" type="DynamicFontData" id=8]
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 512, 16 )
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 42, 168 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 70
+font_data = ExtResource( 7 )
+
+[sub_resource type="Theme" id=3]
+default_font = SubResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 30
+font_data = ExtResource( 8 )
+
+[sub_resource type="Theme" id=5]
+default_font = SubResource( 4 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 40
+font_data = ExtResource( 7 )
+
+[sub_resource type="Theme" id=10]
+default_font = SubResource( 9 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 25
+font_data = ExtResource( 7 )
+
+[sub_resource type="Theme" id=8]
+default_font = SubResource( 7 )
+
+[node name="Game" type="Node"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 216, 544 )
+
+[node name="Level" type="Node2D" parent="."]
+
+[node name="Ground" type="StaticBody2D" parent="Level"]
+
+[node name="Ground" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 8, 592 )
+
+[node name="Ground2" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 24, 592 )
+
+[node name="Ground3" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 40, 592 )
+
+[node name="Ground4" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 56, 592 )
+
+[node name="Ground5" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 72, 592 )
+
+[node name="Ground6" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 88, 592 )
+
+[node name="Ground7" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 104, 592 )
+
+[node name="Ground8" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 120, 592 )
+
+[node name="Ground9" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 136, 592 )
+
+[node name="Ground10" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 152, 592 )
+
+[node name="Ground11" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 168, 592 )
+
+[node name="Ground12" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 184, 592 )
+
+[node name="Ground13" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 200, 592 )
+
+[node name="Ground14" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 216, 592 )
+
+[node name="Ground15" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 232, 592 )
+
+[node name="Ground16" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 248, 592 )
+
+[node name="Ground17" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 264, 592 )
+
+[node name="Ground18" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 280, 592 )
+
+[node name="Ground19" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 8, 576 )
+
+[node name="Ground20" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 24, 576 )
+
+[node name="Ground21" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 40, 576 )
+
+[node name="Ground22" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 56, 576 )
+
+[node name="Ground23" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 72, 576 )
+
+[node name="Ground24" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 88, 576 )
+
+[node name="Ground25" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 104, 576 )
+
+[node name="Ground26" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 120, 576 )
+
+[node name="Ground27" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 136, 576 )
+
+[node name="Ground28" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 152, 576 )
+
+[node name="Ground29" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 168, 576 )
+
+[node name="Ground30" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 184, 576 )
+
+[node name="Ground31" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 200, 576 )
+
+[node name="Ground32" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 216, 576 )
+
+[node name="Ground33" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 232, 576 )
+
+[node name="Ground34" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 248, 576 )
+
+[node name="Ground35" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 264, 576 )
+
+[node name="Ground36" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 280, 576 )
+
+[node name="Ground37" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 296, 592 )
+
+[node name="Ground38" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 312, 592 )
+
+[node name="Ground39" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 328, 592 )
+
+[node name="Ground40" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 344, 592 )
+
+[node name="Ground41" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 360, 592 )
+
+[node name="Ground42" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 376, 592 )
+
+[node name="Ground43" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 392, 592 )
+
+[node name="Ground44" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 408, 592 )
+
+[node name="Ground45" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 424, 592 )
+
+[node name="Ground46" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 440, 592 )
+
+[node name="Ground47" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 456, 592 )
+
+[node name="Ground48" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 472, 592 )
+
+[node name="Ground49" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 488, 592 )
+
+[node name="Ground50" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 504, 592 )
+
+[node name="Ground51" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 520, 592 )
+
+[node name="Ground52" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 536, 592 )
+
+[node name="Ground53" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 552, 592 )
+
+[node name="Ground54" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 568, 592 )
+
+[node name="Ground55" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 296, 576 )
+
+[node name="Ground56" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 312, 576 )
+
+[node name="Ground57" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 328, 576 )
+
+[node name="Ground58" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 344, 576 )
+
+[node name="Ground59" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 360, 576 )
+
+[node name="Ground60" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 376, 576 )
+
+[node name="Ground61" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 392, 576 )
+
+[node name="Ground62" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 408, 576 )
+
+[node name="Ground63" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 424, 576 )
+
+[node name="Ground64" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 440, 576 )
+
+[node name="Ground65" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 456, 576 )
+
+[node name="Ground66" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 472, 576 )
+
+[node name="Ground67" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 488, 576 )
+
+[node name="Ground68" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 504, 576 )
+
+[node name="Ground69" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 520, 576 )
+
+[node name="Ground70" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 536, 576 )
+
+[node name="Ground71" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 552, 576 )
+
+[node name="Ground72" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 568, 576 )
+
+[node name="Ground73" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 584, 592 )
+
+[node name="Ground74" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 600, 592 )
+
+[node name="Ground75" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 616, 592 )
+
+[node name="Ground76" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 632, 592 )
+
+[node name="Ground77" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 648, 592 )
+
+[node name="Ground78" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 664, 592 )
+
+[node name="Ground79" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 680, 592 )
+
+[node name="Ground80" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 696, 592 )
+
+[node name="Ground81" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 712, 592 )
+
+[node name="Ground82" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 728, 592 )
+
+[node name="Ground83" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 744, 592 )
+
+[node name="Ground84" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 760, 592 )
+
+[node name="Ground85" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 776, 592 )
+
+[node name="Ground86" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 792, 592 )
+
+[node name="Ground87" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 808, 592 )
+
+[node name="Ground88" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 824, 592 )
+
+[node name="Ground89" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 840, 592 )
+
+[node name="Ground90" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 856, 592 )
+
+[node name="Ground91" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 584, 576 )
+
+[node name="Ground92" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 600, 576 )
+
+[node name="Ground93" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 616, 576 )
+
+[node name="Ground94" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 632, 576 )
+
+[node name="Ground95" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 648, 576 )
+
+[node name="Ground96" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 664, 576 )
+
+[node name="Ground97" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 680, 576 )
+
+[node name="Ground98" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 696, 576 )
+
+[node name="Ground99" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 712, 576 )
+
+[node name="Ground100" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 728, 576 )
+
+[node name="Ground101" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 744, 576 )
+
+[node name="Ground102" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 760, 576 )
+
+[node name="Ground103" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 776, 576 )
+
+[node name="Ground104" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 792, 576 )
+
+[node name="Ground105" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 808, 576 )
+
+[node name="Ground106" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 824, 576 )
+
+[node name="Ground107" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 840, 576 )
+
+[node name="Ground108" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 856, 576 )
+
+[node name="Ground109" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 872, 592 )
+
+[node name="Ground110" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 888, 592 )
+
+[node name="Ground111" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 904, 592 )
+
+[node name="Ground112" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 920, 592 )
+
+[node name="Ground113" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 936, 592 )
+
+[node name="Ground114" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 952, 592 )
+
+[node name="Ground115" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 968, 592 )
+
+[node name="Ground116" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 984, 592 )
+
+[node name="Ground117" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 1000, 592 )
+
+[node name="Ground118" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 1016, 592 )
+
+[node name="Ground127" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 872, 576 )
+
+[node name="Ground128" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 888, 576 )
+
+[node name="Ground129" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 904, 576 )
+
+[node name="Ground130" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 920, 576 )
+
+[node name="Ground131" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 936, 576 )
+
+[node name="Ground132" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 952, 576 )
+
+[node name="Ground133" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 968, 576 )
+
+[node name="Ground134" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 984, 576 )
+
+[node name="Ground135" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 1000, 576 )
+
+[node name="Ground136" parent="Level/Ground" instance=ExtResource( 2 )]
+position = Vector2( 1016, 576 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Level/Ground"]
+position = Vector2( 512, 584 )
+shape = SubResource( 6 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Level/Ground"]
+position = Vector2( -40, 520 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Level/Ground"]
+position = Vector2( 1064, 520 )
+shape = SubResource( 1 )
+
+[node name="Vial" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 64, 328 )
+
+[node name="Vial2" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 192, 328 )
+
+[node name="Vial3" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 320, 328 )
+
+[node name="Vial4" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 448, 328 )
+
+[node name="Vial5" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 576, 328 )
+
+[node name="Vial6" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 704, 328 )
+
+[node name="Vial7" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 832, 328 )
+
+[node name="Vial8" parent="Level" instance=ExtResource( 3 )]
+position = Vector2( 960, 328 )
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 4 )
+
+[node name="title" type="Label" parent="Control"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -259.5
+margin_top = 20.0
+margin_right = 259.5
+margin_bottom = 41.0
+theme = SubResource( 3 )
+text = "The Key Scientist"
+align = 1
+
+[node name="Button" type="Button" parent="Control"]
+visible = false
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -55.0
+margin_top = 75.0
+margin_right = 55.0
+margin_bottom = 24.0
+theme = SubResource( 5 )
+text = "Restart"
+
+[node name="message" type="Label" parent="Control"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -259.5
+margin_top = 120.0
+margin_right = 259.5
+margin_bottom = 61.0
+theme = SubResource( 10 )
+align = 1
+
+[node name="Score" type="Label" parent="Control"]
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 519.0
+margin_bottom = 41.0
+theme = SubResource( 8 )
+text = "0"
+
+[connection signal="pressed" from="Control/Button" to="Control" method="_on_Button_pressed"]

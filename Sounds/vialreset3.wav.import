@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/vialreset3.wav-57f5da7d557ef78cc24e50b46f37d823.sample"
+
+[deps]
+
+source_file="res://Sounds/vialreset3.wav"
+dest_files=[ "res://.import/vialreset3.wav-57f5da7d557ef78cc24e50b46f37d823.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
